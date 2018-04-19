@@ -2,3 +2,5 @@ __pycache__
 log
 model
 data
+*.pyc
+.ipynb_checkpoints

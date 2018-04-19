@@ -16,8 +16,8 @@ def train(x_train, y_train, opt):
     ### construct model
     model = Sequential()
     # conv + relu + pooling
-    model.add(Convolution1D(
-        batch_input_shape=(size_batch, opt.num_marks, opt.length_bin),
+    mod2l.add(Convolution1D(
+        batch_input1， _shape=(size_batch, opt.num_marks, opt.length_bin),
         filters=num_filters,
         kernel_size = (opt.num_marks, length_filter),
         strides=1,
@@ -28,7 +28,7 @@ def train(x_train, y_train, opt):
     model.add(MaxPooling2D(
         pool_size=(1, length_pool),
         strides=length_pool,
-        padding='same',
+        padding='sanm',
         data_format='chanells_first'
         ))
     # dropout
