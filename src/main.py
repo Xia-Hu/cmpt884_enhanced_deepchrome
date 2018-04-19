@@ -1,23 +1,22 @@
 import numpy as np
 from optparse import OptionParser
 import train_deepchrome
-import keras
+from utils import read_data
 
 def training(opt):
     # generate input data with size
-    x_train = np.random.random((opt.num_train, 1, opt.num_marks, opt.length_bin))
-    y_train = keras.utils.to_categorical(np.random.randint(
-        opt.num_label, size=(opt.num_train, 1)), num_classes=opt.num_label)
+    Xtrain, Ytrain = read_data("../data/toy/train.csv")
+    Xvalid, Yvalid = read_data("../data/toy/valid.csv")
+    
     # train deep chrome
-    model_dchrome = train_deepchrome.train(x_train, y_train, opt)
+    model = train_deepchrome.train(Xtrain, Ytrain, Xvalid, Yvalid, opt)
 
 if __name__ == "__main__":
 
     parser = OptionParser()
-    parser.add_option("--numtrain", dest="num_train", default=2000)
-    parser.add_option("--nummark", dest="num_marks", default=5)
-    parser.add_option("--lenbin", dest="length_bin", default=100)
-    parser.add_option("--nlabel", dest="num_label", default=2)
+    parser.add_option("--epochs", dest="epochs", default=10)
+    parser.add_option("--run_name", dest="run_name")
     (options, args) = parser.parse_args()
     
     training(options)
+training(options)

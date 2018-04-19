@@ -4,3 +4,4 @@ model
 data
 *.pyc
 .ipynb_checkpoints
+.ipynb
