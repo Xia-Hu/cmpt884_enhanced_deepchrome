@@ -1,0 +1,143 @@
+[W 18:34:58.133 NotebookApp] Collisions detected in /home/deal/.jupyter/jupyter_notebook_config.py and /home/deal/.jupyter/jupyter_notebook_config.json config files. /home/deal/.jupyter/jupyter_notebook_config.json has higher priority: {
+      "NotebookApp": {
+        "password": "1234 ignored, using 'sha1:5d5cfe18500d:894cdeac4e1356b669ba2f652af5441de2f2e20d'"
+      }
+    }
+[W 18:34:58.276 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 18:34:58.281 NotebookApp] Serving notebooks from local directory: /home/xia/cmpt884/cmpt884_enhanced_deepchrome
+[I 18:34:58.281 NotebookApp] 0 active kernels
+[I 18:34:58.281 NotebookApp] The Jupyter Notebook is running at:
+[I 18:34:58.281 NotebookApp] http://[all ip addresses on your system]:8000/
+[I 18:34:58.282 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 18:35:12.134 NotebookApp] Saving file at /attentivechrome.ipynb
+[W 18:35:34.876 NotebookApp] 404 GET /api/kernels/aa63face-a528-410d-8338-3ddb6836b1c6/channels?session_id=5f05a90ff9f2412986545981111b5b8a (104.237.86.153): Kernel does not exist: aa63face-a528-410d-8338-3ddb6836b1c6
+[W 18:35:34.880 NotebookApp] 404 GET /api/kernels/aa63face-a528-410d-8338-3ddb6836b1c6/channels?session_id=5f05a90ff9f2412986545981111b5b8a (104.237.86.153) 16.36ms referer=None
+[I 18:36:58.629 NotebookApp] Saving file at /train_attentivechrome.py
+[I 18:36:59.107 NotebookApp] Saving file at /train_attentivechrome.py
+[I 18:37:28.386 NotebookApp] Kernel started: 79fe1fd5-23d4-4875-a1aa-786747c7f661
+[I 18:37:29.357 NotebookApp] Adapting to protocol v5.1 for kernel 79fe1fd5-23d4-4875-a1aa-786747c7f661
+[libprotobuf FATAL google/protobuf/stubs/common.cc:61] This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+terminate called after throwing an instance of 'google::protobuf::FatalException'
+  what():  This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+[I 18:37:52.386 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 79fe1fd5-23d4-4875-a1aa-786747c7f661 restarted
+[libprotobuf FATAL google/protobuf/stubs/common.cc:61] This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+terminate called after throwing an instance of 'google::protobuf::FatalException'
+  what():  This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+[I 18:39:10.390 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 79fe1fd5-23d4-4875-a1aa-786747c7f661 restarted
+[I 18:39:29.079 NotebookApp] Saving file at /main.ipynb
+[I 18:41:02.163 NotebookApp] Saving file at /train_attentivechrome.py
+[I 18:41:09.101 NotebookApp] Saving file at /main.py
+[I 18:41:09.613 NotebookApp] Saving file at /main.py
+[I 18:41:29.170 NotebookApp] Saving file at /main.ipynb
+[I 18:42:01.983 NotebookApp] Saving file at /main.py
+[I 18:42:51.619 NotebookApp] Saving file at /main.py
+[I 18:42:52.005 NotebookApp] Saving file at /main.py
+[I 18:43:48.005 NotebookApp] Saving file at /train_attentivechrome.py
+[I 18:43:48.182 NotebookApp] Saving file at /train_attentivechrome.py
+[I 19:07:22.938 NotebookApp] Saving file at /train_attentivechrome.py
+[I 19:09:23.727 NotebookApp] Saving file at /train_attentivechrome.py
+[I 19:12:05.518 NotebookApp] Saving file at /train_attentivechrome.py
+[I 19:12:06.237 NotebookApp] Saving file at /train_attentivechrome.py
+[W 19:13:59.360 NotebookApp] WebSocket ping timeout after 119180 ms.
+[I 19:14:04.367 NotebookApp] Starting buffering for 79fe1fd5-23d4-4875-a1aa-786747c7f661:6695a4b50ed947de8759e9a8dd507e5e
+[I 20:45:20.077 NotebookApp] Adapting to protocol v5.1 for kernel 79fe1fd5-23d4-4875-a1aa-786747c7f661
+[I 20:45:20.079 NotebookApp] Restoring connection for 79fe1fd5-23d4-4875-a1aa-786747c7f661:6695a4b50ed947de8759e9a8dd507e5e
+[I 21:00:16.042 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:00:16.489 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:00:18.432 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:01:45.424 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:02:18.242 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:02:18.299 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:28:51.798 NotebookApp] Starting buffering for 79fe1fd5-23d4-4875-a1aa-786747c7f661:6695a4b50ed947de8759e9a8dd507e5e
+[I 21:29:38.991 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:30:10.647 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:30:31.847 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:30:32.663 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:30:46.692 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:34:20.299 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:34:21.015 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:34:21.219 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:35:54.459 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:35:55.839 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:43:53.335 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:43:53.537 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:43:53.745 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:43:53.784 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:48:38.540 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:48:38.865 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:48:39.397 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:49:19.914 NotebookApp] Saving file at /main.py
+[I 21:49:20.446 NotebookApp] Saving file at /main.py
+[I 21:49:43.544 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:49:43.597 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:50:06.804 NotebookApp] Saving file at /main.py
+[I 21:50:07.218 NotebookApp] Saving file at /main.py
+[I 21:50:07.522 NotebookApp] Saving file at /main.py
+[I 21:50:44.733 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:50:44.984 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:52:52.778 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:58:57.136 NotebookApp] Saving file at /train_attentivechrome.py
+[I 21:58:58.560 NotebookApp] Saving file at /train_attentivechrome.py
+[I 22:05:07.503 NotebookApp] Saving file at /train_attentivechrome.py
+[I 22:05:07.708 NotebookApp] Saving file at /train_attentivechrome.py
+[I 22:05:07.754 NotebookApp] Saving file at /train_attentivechrome.py
+[I 22:05:41.298 NotebookApp] Saving file at /train_attentivechrome.py
+[I 22:06:45.937 NotebookApp] Saving file at /main.py
+[I 22:06:46.026 NotebookApp] Saving file at /main.py
+[I 22:06:46.560 NotebookApp] Saving file at /main.py
+[I 22:13:29.992 NotebookApp] Saving file at /train_attentivechrome.py
+[I 22:13:30.912 NotebookApp] Saving file at /train_attentivechrome.py
+[I 00:58:56.019 NotebookApp] 302 GET / (139.162.79.87) 1.12ms
+[I 06:05:04.205 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:05:04.275 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:05:06.004 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:23:04.817 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:23:05.421 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:23:05.523 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:23:48.888 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:23:49.350 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:24:05.434 NotebookApp] Saving file at /train_attentivechrome.py
+[I 06:24:05.734 NotebookApp] Saving file at /train_attentivechrome.py
+[I 12:55:09.952 NotebookApp] Kernel started: f9e52d5d-2107-4991-9ee9-3baa2c44ef59
+[I 12:55:10.411 NotebookApp] Adapting to protocol v5.1 for kernel f9e52d5d-2107-4991-9ee9-3baa2c44ef59
+[libprotobuf FATAL google/protobuf/stubs/common.cc:61] This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+terminate called after throwing an instance of 'google::protobuf::FatalException'
+  what():  This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+[I 12:55:45.952 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel f9e52d5d-2107-4991-9ee9-3baa2c44ef59 restarted
+[libprotobuf FATAL google/protobuf/stubs/common.cc:61] This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+terminate called after throwing an instance of 'google::protobuf::FatalException'
+  what():  This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+[I 12:55:48.957 NotebookApp] KernelRestarter: restarting kernel (2/5), keep random ports
+WARNING:root:kernel f9e52d5d-2107-4991-9ee9-3baa2c44ef59 restarted
+[libprotobuf FATAL google/protobuf/stubs/common.cc:61] This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+terminate called after throwing an instance of 'google::protobuf::FatalException'
+  what():  This program requires version 3.5.0 of the Protocol Buffer runtime library, but the installed version is 2.6.1.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "external/protobuf_archive/src/google/protobuf/any.pb.cc".)
+[I 12:56:00.964 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel f9e52d5d-2107-4991-9ee9-3baa2c44ef59 restarted
+[I 12:57:10.735 NotebookApp] Saving file at /attentivechrome.ipynb
+[I 12:57:29.706 NotebookApp] Saving file at /train_attentivechrome.py
+[I 12:57:30.001 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:07:42.455 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:07:42.665 NotebookApp] Saving file at /train_attentivechrome.py
+[W 13:10:40.413 NotebookApp] WebSocket ping timeout after 119714 ms.
+[I 13:10:45.419 NotebookApp] Starting buffering for f9e52d5d-2107-4991-9ee9-3baa2c44ef59:92c3332aec694d6a93799affcef73d27
+[I 13:12:27.723 NotebookApp] Adapting to protocol v5.1 for kernel f9e52d5d-2107-4991-9ee9-3baa2c44ef59
+[I 13:12:27.724 NotebookApp] Restoring connection for f9e52d5d-2107-4991-9ee9-3baa2c44ef59:92c3332aec694d6a93799affcef73d27
+[I 13:14:35.824 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:14:48.270 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:14:48.556 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:16:00.878 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:16:01.150 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:17:13.149 NotebookApp] 302 GET / (107.170.193.95) 0.58ms
+[I 13:19:10.167 NotebookApp] Saving file at /attentivechrome.ipynb
+[I 13:21:10.676 NotebookApp] Saving file at /attentivechrome.ipynb
+[I 13:25:33.145 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:26:00.967 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:27:10.680 NotebookApp] Saving file at /attentivechrome.ipynb
+[I 13:27:18.894 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:27:19.162 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:27:38.239 NotebookApp] Saving file at /train_attentivechrome.py
+[I 13:27:38.496 NotebookApp] Saving file at /train_attentivechrome.py
